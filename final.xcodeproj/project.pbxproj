@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF0B5C0C275551E50079A856 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B5C0B275551E50079A856 /* Remote.swift */; };
+		DF0B5C0C275551E50079A856 /* remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B5C0B275551E50079A856 /* remote.swift */; };
 		DF0B5C0E27557BBF0079A856 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B5C0D27557BBF0079A856 /* ImageView.swift */; };
 		DF0B5C1027559F710079A856 /* EngineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B5C0F27559F710079A856 /* EngineModel.swift */; };
 		DF0B5C1227559FC30079A856 /* GameModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B5C1127559FC30079A856 /* GameModle.swift */; };
@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF0B5C0B275551E50079A856 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		DF0B5C0B275551E50079A856 /* remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remote.swift; sourceTree = "<group>"; };
 		DF0B5C0D27557BBF0079A856 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		DF0B5C0F27559F710079A856 /* EngineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineModel.swift; sourceTree = "<group>"; };
 		DF0B5C1127559FC30079A856 /* GameModle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModle.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		DF0B5C062755517E0079A856 /* files */ = {
 			isa = PBXGroup;
 			children = (
-				DF0B5C0B275551E50079A856 /* Remote.swift */,
+				DF0B5C0B275551E50079A856 /* remote.swift */,
 				DF0B5C0F27559F710079A856 /* EngineModel.swift */,
 				DF0B5C1127559FC30079A856 /* GameModle.swift */,
 			);
@@ -306,7 +306,7 @@
 				DF1EF97427554028007B5F68 /* Persistence.swift in Sources */,
 				DF0B5C1027559F710079A856 /* EngineModel.swift in Sources */,
 				DF1EF99E27554DFD007B5F68 /* SearchView.swift in Sources */,
-				DF0B5C0C275551E50079A856 /* Remote.swift in Sources */,
+				DF0B5C0C275551E50079A856 /* remote.swift in Sources */,
 				DF1EF96D27554027007B5F68 /* ContentView.swift in Sources */,
 				DF0B5C1227559FC30079A856 /* GameModle.swift in Sources */,
 				DF0B5C0E27557BBF0079A856 /* ImageView.swift in Sources */,
