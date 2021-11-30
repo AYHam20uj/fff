@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0B5C0C275551E50079A856 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B5C0B275551E50079A856 /* Remote.swift */; };
+		DF0B5C0E27557BBF0079A856 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B5C0D27557BBF0079A856 /* ImageView.swift */; };
+		DF0B5C1027559F710079A856 /* EngineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B5C0F27559F710079A856 /* EngineModel.swift */; };
+		DF0B5C1227559FC30079A856 /* GameModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B5C1127559FC30079A856 /* GameModle.swift */; };
 		DF1EF96B27554027007B5F68 /* finalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EF96A27554027007B5F68 /* finalApp.swift */; };
 		DF1EF96D27554027007B5F68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EF96C27554027007B5F68 /* ContentView.swift */; };
 		DF1EF96F27554028007B5F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1EF96E27554028007B5F68 /* Assets.xcassets */; };
@@ -16,6 +20,7 @@
 		DF1EF98127554029007B5F68 /* finalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EF98027554029007B5F68 /* finalTests.swift */; };
 		DF1EF98B27554029007B5F68 /* finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EF98A27554029007B5F68 /* finalUITests.swift */; };
 		DF1EF98D27554029007B5F68 /* finalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EF98C27554029007B5F68 /* finalUITestsLaunchTests.swift */; };
+		DF1EF99E27554DFD007B5F68 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EF99D27554DFD007B5F68 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF0B5C0B275551E50079A856 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		DF0B5C0D27557BBF0079A856 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		DF0B5C0F27559F710079A856 /* EngineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineModel.swift; sourceTree = "<group>"; };
+		DF0B5C1127559FC30079A856 /* GameModle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModle.swift; sourceTree = "<group>"; };
 		DF1EF96727554027007B5F68 /* final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1EF96A27554027007B5F68 /* finalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalApp.swift; sourceTree = "<group>"; };
 		DF1EF96C27554027007B5F68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +57,7 @@
 		DF1EF98627554029007B5F68 /* finalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1EF98A27554029007B5F68 /* finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalUITests.swift; sourceTree = "<group>"; };
 		DF1EF98C27554029007B5F68 /* finalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF1EF99D27554DFD007B5F68 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF0B5C062755517E0079A856 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				DF0B5C0B275551E50079A856 /* Remote.swift */,
+				DF0B5C0F27559F710079A856 /* EngineModel.swift */,
+				DF0B5C1127559FC30079A856 /* GameModle.swift */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
 		DF1EF95E27554027007B5F68 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +119,11 @@
 			isa = PBXGroup;
 			children = (
 				DF1EF96A27554027007B5F68 /* finalApp.swift */,
-				DF1EF96C27554027007B5F68 /* ContentView.swift */,
 				DF1EF96E27554028007B5F68 /* Assets.xcassets */,
 				DF1EF97327554028007B5F68 /* Persistence.swift */,
-				DF1EF97527554028007B5F68 /* final.xcdatamodeld */,
+				DF0B5C062755517E0079A856 /* files */,
+				DF1EF99B275542B6007B5F68 /* data */,
+				DF1EF99C275542C2007B5F68 /* views */,
 				DF1EF97027554028007B5F68 /* Preview Content */,
 			);
 			path = final;
@@ -131,6 +152,24 @@
 				DF1EF98C27554029007B5F68 /* finalUITestsLaunchTests.swift */,
 			);
 			path = finalUITests;
+			sourceTree = "<group>";
+		};
+		DF1EF99B275542B6007B5F68 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EF97527554028007B5F68 /* final.xcdatamodeld */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		DF1EF99C275542C2007B5F68 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EF96C27554027007B5F68 /* ContentView.swift */,
+				DF1EF99D27554DFD007B5F68 /* SearchView.swift */,
+				DF0B5C0D27557BBF0079A856 /* ImageView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +304,12 @@
 			files = (
 				DF1EF97727554028007B5F68 /* final.xcdatamodeld in Sources */,
 				DF1EF97427554028007B5F68 /* Persistence.swift in Sources */,
+				DF0B5C1027559F710079A856 /* EngineModel.swift in Sources */,
+				DF1EF99E27554DFD007B5F68 /* SearchView.swift in Sources */,
+				DF0B5C0C275551E50079A856 /* Remote.swift in Sources */,
 				DF1EF96D27554027007B5F68 /* ContentView.swift in Sources */,
+				DF0B5C1227559FC30079A856 /* GameModle.swift in Sources */,
+				DF0B5C0E27557BBF0079A856 /* ImageView.swift in Sources */,
 				DF1EF96B27554027007B5F68 /* finalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
